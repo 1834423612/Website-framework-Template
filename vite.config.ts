@@ -9,4 +9,8 @@ export default defineConfig({
       '@': '/src'
     }
   },
+  server: {
+    host: true,
+    open: true // Automatically open the browser
+  }
 })
